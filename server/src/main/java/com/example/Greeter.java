@@ -12,7 +12,7 @@ public class Greeter {
 
   }
 
-  //TODO: Add javadoc comment
+  //Esta funcion hace lo que tiene que hacer
   public String greet(String someone) {
     return String.format("Hello, %s!", someone);
   }
