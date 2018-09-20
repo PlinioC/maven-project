@@ -1,4 +1,5 @@
 pipeline {
+agente 'master'
 	stages{
 		stage('Compilar') {
 			node(label:'master') {
