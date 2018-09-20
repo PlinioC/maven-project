@@ -1,5 +1,5 @@
 pipeline {
-agente 'master'
+agent 'master'
 	stages{
 		stage('Compilar') {
 			node(label:'master') {
